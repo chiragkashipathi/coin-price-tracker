@@ -1,7 +1,7 @@
 ## How to run the code
 
 ```
-git clone 
+git clone https://github.com/chiragkashipathi/coin-price-tracker.git
 docker compose up --build
 ```
 
