@@ -1,0 +1,11 @@
+version: "3.10"
+services:
+  web:
+    build: .
+    command: python manage.py runserver
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/bitcoinpricetracker
+
+      
